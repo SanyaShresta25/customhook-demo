@@ -6,10 +6,8 @@ This project demonstrates how to use a custom React hook to implement undo and r
 
 - Custom React hook (`useUndo`) for managing input history
 - Undo and Redo buttons with simple logic
-- Grouped edits to avoid per-character undo
 - Mobile-responsive layout
 - Styled with Tailwind CSS
-- Emoji favicon and interactive heading
 
 ## 🛠 Tech Stack
 
