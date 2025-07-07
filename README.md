@@ -27,7 +27,7 @@ This project demonstrates how to use a custom React hook to implement undo and r
 git clone https://github.com/SanyaShresta25/customhook-demo.git
 
 # Navigate to the project
-cd customhook-undo-demo
+cd customhook-demo
 
 # Install dependencies
 npm install
