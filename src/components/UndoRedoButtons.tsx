@@ -1,14 +1,7 @@
-// src/components/UndoRedoButtons.tsx
 import React from 'react';
+import type { UndoRedoProps } from '../types/types';
 
-interface Props {
-  onUndo: () => void;
-  onRedo: () => void;
-  canUndo: boolean;
-  canRedo: boolean;
-}
-
-export const UndoRedoButtons: React.FC<Props> = ({ onUndo, onRedo, canUndo, canRedo }) => (
+export const UndoRedoButtons: React.FC< UndoRedoProps> = ({ onUndo, onRedo, canUndo, canRedo }) => (
   <div className="flex space-x-2 mt-2">
     <button
       onClick={onUndo}
